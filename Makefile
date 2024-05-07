@@ -1,6 +1,6 @@
 # Build
 build:
-	docker build --tag alexgleith/cdo .
+	docker build --tag ftt01cdo .
 
 shell:
-	docker run --rm -it -v /tmp:/tmp alexgleith/cdo bash
+	docker run --rm -it -v /tmp:/tmp ftt01cdo bash

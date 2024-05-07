@@ -21,5 +21,3 @@ RUN wget https://code.mpimet.mpg.de/attachments/download/16435/cdo-1.9.3.tar.gz 
 
 RUN mkdir -p /data && chmod 777 /data
 WORKDIR /data
-
-CMD cdo --version
